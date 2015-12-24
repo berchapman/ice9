@@ -1,0 +1,109 @@
+/* -------------------------------------------- */
+// FONT IMPORTS
+/* -------------------------------------------- */
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src:  url('/assets/fonts/Quicksand-Light.eot'); /* IE9 compat modes */  
+    src:  url('/assets/fonts/Quicksand-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */    
+          url('/assets/fonts/Quicksand-Light.otf') format('opentype'),
+          url('/assets/fonts/Quicksand-Light.ttf') format('truetype'),
+          url('/assets/fonts/Quicksand-Light.woff') format('woff');
+}
+
+
+
+
+/* -------------------------------------------- */
+// VARIABLES
+/* -------------------------------------------- */
+
+
+//BASE
+$font: 'Georgia', serif;
+$font-headline: 'Quicksand-Light', sans-serif;
+$fs: 16px;
+$lh-x: 1.6;
+$lh: $fs * $lh-x;
+$lh: floor($lh);
+$font-color: #3C3C3C; //#1F1F1F;
+$headline-color: #000000;
+
+
+//HEADLINES
+/* h1 */
+$h1: $font-headline;
+$h1-size: $fs * 4;
+$h1-lineheight: floor($h1-size * $lh-x);
+$h1-weight: 300;
+
+/* h2 */
+$h2: $font-headline;
+$h2-size: $fs * 3;
+$h2-lineheight: floor($h2-size * $lh-x);
+$h2-weight: 300;
+
+/* h3 */
+$h3: $font-headline;
+$h3-size: $fs * 2;
+$h3-lineheight: floor($h3-size * $lh-x);
+$h3-weight: 300;
+
+/* h4 */
+$h4: $font-headline;
+$h4-size: $fs * 1.5;
+$h4-lineheight: floor($h4-size * $lh-x);
+$h4-weight: 400;
+
+
+/* -------------------------------------------- */
+// DECLARATIONS
+/* -------------------------------------------- */
+
+html, body {
+    font-family: $font;
+    font-size: $fs;
+    line-height: floor($fs * $lh-x);
+    color: $font-color;
+}
+
+
+h1 {
+    font-family:     $font-headline;
+    font-size:       $h1-size;
+    line-height:     $h1-lineheight;
+    font-weight:     $h1-weight;
+    color:           $headline-color;
+    letter-spacing:  -1px;
+}
+
+h2 {
+    font-family:     $font-headline;
+    font-size:       $h2-size;
+    line-height:     $h2-lineheight;
+    font-weight:     $h2-weight;
+    color:           $headline-color;    
+}
+
+h3 {
+    font-family:     $font-headline;
+    font-size:       $h3-size;
+    line-height:     $h3-lineheight;
+    font-weight:     $h3-weight;
+    color:           $headline-color;    
+}
+
+h4 {
+    font-family:     $font-headline;
+    font-size:       $h4-size;
+    line-height:     $h4-lineheight;
+    font-weight:     $h4-weight;
+    color:           $headline-color;    
+}
+@mixin h4 {
+    font-family:     $font-headline;
+    font-size:       $h4-size;
+    line-height:     $h4-lineheight;
+    font-weight:     $h4-weight;
+    color:           $headline-color;    
+}

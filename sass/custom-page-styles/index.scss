@@ -1,0 +1,27 @@
+@import "partials/typography";
+@import "partials/globals";
+
+header p {
+    @include h4();
+}
+
+
+.banner.image-bg {
+    background-color: $lb1;
+    background-image: url('/images/theme-snow/snow-trees-hi-res_cropped.jpg');
+    padding-bottom: 32px;
+}
+
+    .image-bg h3 {
+        background-color: $black;
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+    
+        .image-bg h3 a {
+            color: $white;
+            text-shadow:  0 0 2px $lb1;
+            text-decoration: none;
+            border-bottom: 1px solid $white;
+            padding-bottom: 4px;
+        }    

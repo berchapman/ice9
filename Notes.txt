@@ -1,0 +1,23 @@
+gem update --system
+
+gem install bundler
+
+create Gemfile
+
+    source 'https://rubygems.org'
+    gem 'sass', '~>3.4'
+    gem 'compass', '~>1.0'
+    gem 'sassy-maps', '<1.0.0'
+    gem 'breakpoint', '~>2.5.0'    
+    
+bundle install
+
+compass create --bare --sass-dir "sass" --css-dir "style" --javascripts-dir "js" --images-dir "images"
+
+-----
+
+> composer.json
+    "> composer.json" is a command line instruction to create an empty composer.json file
+    
+composer require phpmailer/phpmailer
+    installs phpmailer for quickContact form

@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sass', '~>3.4'
+gem 'compass', '>= 1.0.0.beta'
+gem 'sassy-maps', '<1.0.0'
+gem 'breakpoint', '~>2.5.0'

@@ -1,0 +1,56 @@
+//MAIN SECTIONS (ONE COLUMN GRID)
+main > section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+//CENTER
+/* Centers immediate children */
+.center {
+    text-align: center;
+}
+.center > *, *:after, *:before {
+    display: inline-block;
+}
+
+
+//TEXT-CENTER
+/* Centers text */
+.text-center {
+    text-align: center;
+}
+.text-center:before, .text-center:after {
+    text-align: center;
+}
+
+
+
+
+
+
+
+//BANNER
+.banner {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    overflow: auto;
+}
+
+
+//IMAGE-BG
+.image-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+}
+
+
+
+
+//WRITING (LOTS OF WORDS)
+.writing {
+    max-width: 500px;    
+}

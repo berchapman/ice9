@@ -1,0 +1,42 @@
+.grid {
+    
+    width: 100%;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+
+//CLEARFIX FOR GRID
+.grid:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .grid             { zoom: 1; } /* IE6 */
+*:first-child+html .grid { zoom: 1; } /* IE7 */
+
+
+
+.grid > section {
+    float: left;
+}
+
+
+//TWO COLUMN | 2 COLUMN
+.col-2 > section {
+    width: 50%;
+}
+
+
+//THREE COLUMN | 3 COLUMN
+.col-3 > section {
+    width: 33.333%;
+}

@@ -1,0 +1,17 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+//border-box everywhere - overflow-x hidden everywhere
+html {
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  overflow-x: hidden;
+}

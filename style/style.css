@@ -1,0 +1,192 @@
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+@font-face {
+  font-family: 'Quicksand-Light';
+  src: url("/assets/fonts/Quicksand-Light.eot");
+  /* IE9 compat modes */
+  src: url("/assets/fonts/Quicksand-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Quicksand-Light.otf") format("opentype"), url("/assets/fonts/Quicksand-Light.ttf") format("truetype"), url("/assets/fonts/Quicksand-Light.woff") format("woff");
+}
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* h1 */
+/* h2 */
+/* h3 */
+/* h4 */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* line 63, ../sass/partials/_typography.scss */
+html, body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #3C3C3C;
+}
+
+/* line 71, ../sass/partials/_typography.scss */
+h1 {
+  font-family: "Quicksand-Light", sans-serif;
+  font-size: 64px;
+  line-height: 102px;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: -1px;
+}
+
+/* line 80, ../sass/partials/_typography.scss */
+h2 {
+  font-family: "Quicksand-Light", sans-serif;
+  font-size: 48px;
+  line-height: 76px;
+  font-weight: 300;
+  color: #000000;
+}
+
+/* line 88, ../sass/partials/_typography.scss */
+h3 {
+  font-family: "Quicksand-Light", sans-serif;
+  font-size: 32px;
+  line-height: 51px;
+  font-weight: 300;
+  color: #000000;
+}
+
+/* line 96, ../sass/partials/_typography.scss */
+h4 {
+  font-family: "Quicksand-Light", sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* line 1, ../sass/grid/_grid.scss */
+.grid {
+  width: 100%;
+  max-width: 1300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+/* line 16, ../sass/grid/_grid.scss */
+.grid:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+/* line 23, ../sass/grid/_grid.scss */
+* html .grid {
+  zoom: 1;
+}
+
+/* IE6 */
+/* line 24, ../sass/grid/_grid.scss */
+*:first-child + html .grid {
+  zoom: 1;
+}
+
+/* IE7 */
+/* line 28, ../sass/grid/_grid.scss */
+.grid > section {
+  float: left;
+}
+
+/* line 34, ../sass/grid/_grid.scss */
+.col-2 > section {
+  width: 50%;
+}
+
+/* line 40, ../sass/grid/_grid.scss */
+.col-3 > section {
+  width: 33.333%;
+}
+
+/* line 2, ../sass/partials/_architectural.scss */
+main > section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Centers immediate children */
+/* line 11, ../sass/partials/_architectural.scss */
+.center {
+  text-align: center;
+}
+
+/* line 14, ../sass/partials/_architectural.scss */
+.center > *, *:after, *:before {
+  display: inline-block;
+}
+
+/* Centers text */
+/* line 21, ../sass/partials/_architectural.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 24, ../sass/partials/_architectural.scss */
+.text-center:before, .text-center:after {
+  text-align: center;
+}
+
+/* line 35, ../sass/partials/_architectural.scss */
+.banner {
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  overflow: auto;
+}
+
+/* line 44, ../sass/partials/_architectural.scss */
+.image-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 54, ../sass/partials/_architectural.scss */
+.writing {
+  max-width: 500px;
+}
+
+/* line 1, ../sass/partials/_body.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/partials/_body.scss */
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/partials/_body.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+  overflow-x: hidden;
+}
+
+/* line 1, ../sass/partials/_header.scss */
+header {
+  text-align: center;
+  padding: 30px 0 0 0;
+  background: #CDFAFF;
+  overflow: auto;
+}
+
+/* line 8, ../sass/partials/_header.scss */
+header > h1 {
+  margin-top: 0;
+}
